@@ -1,0 +1,2 @@
+List any templates within your namespace
+oc get templates
