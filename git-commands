@@ -6,3 +6,6 @@ stages new files and modifications, without deletions
 
 git add -u 
 stages modifications and deletions, without new files
+
+ git remote show origin
+show origing
