@@ -18,3 +18,14 @@ docker exec -i -t container_name /bin/bash
 
 #### remove everything 
 docker system prune
+
+
+####  docker copy to local machine
+
+docker cp <containerId>:/file/path/within/container /host/path/target
+  
+  ####  docker stop all containers
+  docker container stop $(docker container ls -aq)
+  remove them
+  docker container rm $(docker container ls -aq)
+
